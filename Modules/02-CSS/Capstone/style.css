@@ -1,0 +1,43 @@
+body {
+  background-color: red;
+    color: black;
+    /* set default background color */
+  }
+  
+  /*Mobile*/
+  @media(max-width:639px){
+    div.tablet{
+      display: none;
+    }
+    div.desktop{
+      display: none;
+    }
+  }
+  
+  /*Tablet*/
+  @media (min-width: 640px) {
+    body{
+      background-color: green;
+    color: black;
+    }
+    div.mobile{
+      display: none;
+    }
+    div.desktop{
+      display: none;
+    }
+  }
+  
+  /*Desktop*/
+  @media (min-width: 1024px){
+    body{
+      background-color: blue;
+    color: white;
+    }
+    div.mobile{
+      display: none;
+    }
+    div.tablet{
+      display: none;
+    }
+  }
